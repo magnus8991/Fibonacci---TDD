@@ -5,6 +5,6 @@ public class FibonacciMethod
 
     public int GetValue(int position)
     {
-        return 0;
+        return position == 0 ? 0 : 1;
     }
 }

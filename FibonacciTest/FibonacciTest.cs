@@ -26,4 +26,18 @@ public class FibonacciTest
         var value = FibonacciMethod.GetValue(1);
         Assert.AreEqual(1,value);
     }
+
+    [TestMethod]
+    public void WhenPositionIsTwoReturnOne()
+    {
+        int value = FibonacciMethod.GetValue(2);
+        Assert.AreEqual(1,value);
+    }
+
+    [TestMethod]
+    public void WhenPositionIsThreeReturnTwo()
+    {
+        int value = FibonacciMethod.GetValue(3);
+        Assert.AreEqual(2,value);
+    }
 }
