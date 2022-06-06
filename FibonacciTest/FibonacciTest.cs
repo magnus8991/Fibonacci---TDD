@@ -30,14 +30,14 @@ public class FibonacciTest
     [TestMethod]
     public void WhenPositionIsTwoReturnOne()
     {
-        int value = FibonacciMethod.GetValue(2);
+        var value = FibonacciMethod.GetValue(2);
         Assert.AreEqual(1,value);
     }
 
     [TestMethod]
     public void WhenPositionIsThreeReturnTwo()
     {
-        int value = FibonacciMethod.GetValue(3);
+        var value = FibonacciMethod.GetValue(3);
         Assert.AreEqual(2,value);
     }
 }
